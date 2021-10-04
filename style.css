@@ -82,6 +82,7 @@ body {
   padding: 0 3.2rem;
 
   margin: 0 auto;
+  margin-bottom: 9.6rem;
 }
 
 .grid {
@@ -235,4 +236,40 @@ body {
 .expertise-icon {
   width: 8rem;
   height: 8rem;
+}
+
+/* --------------------------------------------------- */
+/* services Section */
+/* --------------------------------------------------- */
+
+.services-heading {
+  text-align: center;
+  font-size: 4.8rem;
+  font-weight: 400;
+
+  margin-bottom: 4.8rem;
+}
+
+.services-items {
+  border: 2px solid #1a4f47;
+  padding: 6.4rem 0;
+  border-radius: 9px;
+}
+
+.services-items h3 {
+  text-align: center;
+  color: #1a4f47;
+  margin-bottom: 2.4rem;
+}
+
+.services-list {
+  list-style: none;
+  text-align: center;
+  line-height: 1.6;
+  color: #1a4f47;
+  margin-bottom: 2.4rem;
+}
+
+.price-box {
+  text-align: center;
 }
