@@ -200,7 +200,7 @@ body {
 
 .heading-secondary {
   font-weight: 400;
-  font-size: 7rem;
+  font-size: 4.8rem;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 1.2rem;
@@ -242,7 +242,24 @@ body {
 /* services Section */
 /* --------------------------------------------------- */
 
+.section-services {
+  background-image: linear-gradient(to bottom, #1a4f47 50%, #fff 50%);
+  width: 100vw;
+  height: auto;
+
+  margin-bottom: 9.6rem;
+}
+
+.services-box {
+  margin: 0 auto;
+}
+
+/* background: url(1px.png) repeat-y;
+background-size: 50% auto;
+width: 100%; */
+
 .services-heading {
+  color: #fff;
   text-align: center;
   font-size: 4.8rem;
   font-weight: 400;
@@ -250,13 +267,23 @@ body {
   margin-bottom: 4.8rem;
 }
 
+.services-grid {
+  justify-content: center;
+}
+
 .services-items {
-  border: 2px solid #1a4f47;
+  /* border: 2px solid #1a4f47; */
   padding: 6.4rem 0;
   border-radius: 9px;
+  width: 38rem;
+  height: 50rem;
+  box-shadow: 6px 1rem 2rem rgba(0, 0, 0, 0.15);
+
+  background-color: #fff;
 }
 
 .services-items h3 {
+  font-size: 4.8rem;
   text-align: center;
   color: #1a4f47;
   margin-bottom: 2.4rem;
@@ -265,11 +292,72 @@ body {
 .services-list {
   list-style: none;
   text-align: center;
-  line-height: 1.6;
+  line-height: 5.5rem;
+  font-size: 2.4rem;
   color: #1a4f47;
   margin-bottom: 2.4rem;
 }
 
 .price-box {
   text-align: center;
+}
+.price-box p {
+  font-size: 2.4rem;
+}
+
+.price {
+  font-size: 4.8rem;
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.services-contact-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3.2rem;
+
+  margin-top: 3.2rem;
+}
+.services-contact-box p {
+  font-size: 2.4rem;
+}
+
+/* --------------------------------------------------- */
+/* Work Section */
+/* --------------------------------------------------- */
+
+.section-work {
+  margin-top: 3.2rem;
+}
+
+.work-heading {
+  font-size: 6.4rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.work-grid {
+  align-items: center;
+  justify-content: center;
+
+  row-gap: 0;
+  column-gap: 0;
+}
+
+.site-description-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.site-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-description-box:nth-child(2) {
 }
