@@ -99,7 +99,8 @@ body {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.contact-btn {
+.contact-btn:link,
+.contact-btn:visited {
   font-size: 2.4rem;
   font-weight: 500;
   color: #00a088;
@@ -109,6 +110,12 @@ body {
 
   border-radius: 4px;
   padding: 1.6rem 3.2rem;
+}
+
+.contact-btn:hover,
+.contact-btn:active {
+  color: #fff;
+  background-color: #1a4f47;
 }
 /* ------------------------- */
 
@@ -137,11 +144,18 @@ body {
   align-items: center;
   gap: 3.2rem;
 }
-.main-nav-link {
+.main-nav-link:link,
+.main-nav-link:visited {
   color: #fff;
   font-size: 2.4rem;
   font-weight: 600;
   text-decoration: none;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #00a088;
+  font-size: 2.5rem;
 }
 
 /* --------------------------------------------------- */
@@ -184,7 +198,8 @@ body {
   gap: 2.4rem;
 }
 
-.work-btn {
+.work-btn:link,
+.work-btn:visited {
   background-color: #00a088;
   color: #fff;
   font-size: 2.4rem;
@@ -192,6 +207,11 @@ body {
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
   text-decoration: none;
+}
+.work-btn:hover,
+.work-btn:active {
+  background-color: #fff;
+  color: #00a088;
 }
 
 /* --------------------------------------------------- */
@@ -367,13 +387,19 @@ width: 100%; */
   padding: 0 2rem;
 }
 
-.github-btn {
+.github-btn:link,
+.github-btn:visited {
   font-size: 2.4rem;
   color: #fff;
   background-color: #1a4f47;
   border-radius: 9px;
   text-decoration: none;
   padding: 2rem 4rem;
+}
+
+.github-btn:hover,
+.github-btn:active {
+  background-color: #00a088;
 }
 
 .github-btn-box {
@@ -465,7 +491,7 @@ width: 100%; */
 
 .active {
   width: 4.5rem;
-  background-color: #1a4f47;
+  background-color: #00a088;
 }
 /* carousel buttons */
 
