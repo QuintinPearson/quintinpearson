@@ -25,19 +25,6 @@
 
     <link rel="stylesheet" href="style.css" />
 
-    <!-- script -->
-
-    <script src="script.js"></script>
-
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
-    ></script>
-
     <title>Quintin &mdash; A Portfolio</title>
   </head>
   <body>
@@ -53,9 +40,9 @@
       </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a href="#" class="main-nav-link">about</a></li>
-          <li><a href="#" class="main-nav-link">portfolio</a></li>
-          <li><a href="#" class="main-nav-link">services</a></li>
+          <li><a href="#about" class="main-nav-link">about</a></li>
+          <li><a href="#work" class="main-nav-link">portfolio</a></li>
+          <li><a href="#expertise" class="main-nav-link">services</a></li>
         </ul>
       </nav>
       <a href="#" class="contact-btn">contact me</a>
@@ -82,7 +69,7 @@
     <!-- /////////////////////////////////// -->
     <!-- Expertise section -->
     <!-- /////////////////////////////////// -->
-    <section class="section-expertise container">
+    <section id="expertise" class="section-expertise container">
       <h2 class="heading-secondary">This is how I can help you</h2>
       <p class="heading-description">
         together, we can build an amazing website
@@ -173,7 +160,7 @@
     <!-- Work section -->
     <!-- /////////////////////////////////// -->
 
-    <section class="section-work">
+    <section id="work" class="section-work">
       <h3 class="work-heading">my recent work</h3>
 
       <div class="work-grid grid grid--2-cols container">
@@ -251,6 +238,20 @@
           </p>
         </div>
       </div>
+      <div class="github-btn-box">
+        <a
+          href="https://github.com/QuintinPearson"
+          target="_blank"
+          class="github-btn"
+          >see more on github
+          <span
+            ><img
+              src="/img/github-icon.svg"
+              alt="github logo"
+              width="20"
+              height="20" /></span
+        ></a>
+      </div>
     </section>
     <!-- /////////////////////////////////// -->
     <!-- Testimonial section -->
@@ -271,7 +272,7 @@
                 />
                 <p class="testimonial-company">Bold</p>
               </div>
-              <blockquote class="-box">
+              <blockquote class="testimonial-box">
                 <p class="testimonial-text">
                   " Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Tempore earum, neque sint, voluptatum vero, corporis quas
@@ -311,7 +312,7 @@
                 />
                 <p class="testimonial-company">Big Business</p>
               </div>
-              <blockquote class="testimonial">
+              <blockquote class="testimonial-box">
                 <p class="testimonial-text">
                   " Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Tempore earum, neque sint, voluptatum vero, corporis quas
@@ -326,7 +327,7 @@
           <span class="carousel-btn"></span>
           <span class="carousel-btn"></span>
         </div>
-        <button class="btn btn--left">
+        <!-- <button class="btn btn--left">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="btn-icon"
@@ -357,7 +358,7 @@
               d="M9 5l7 7-7 7"
             />
           </svg>
-        </button>
+        </button> -->
       </div>
     </section>
 
@@ -365,14 +366,14 @@
     <!-- about section -->
     <!-- /////////////////////////////////// -->
 
-    <section class="section-about">
+    <section id="about" class="section-about">
       <div class="about-img-box">
         <img
           class="about-img"
+          src="img/about-img.webp"
+          alt="A Picture of Quintin Pearson"
           width="300"
-          height="300"
-          src="img/recent-1 (1).png"
-          alt=""
+          height=""
         />
       </div>
       <div class="about">
@@ -389,5 +390,51 @@
         <p class="quote-author">Robin Sharma</p>
       </div>
     </section>
+
+    <!-- /////////////////////////////////// -->
+    <!-- footer section -->
+    <!-- /////////////////////////////////// -->
+
+    <footer class="footer">
+      <img
+        src="img/logo-2.png"
+        alt="Quintin Pearson's logo"
+        class="logo footer-logo"
+      />
+      <ul class="footer-nav-list">
+        <li class="footer-nav-link">
+          <a href="#" aria-label="Facebook link"
+            ><img src="/img/facebook-icon.svg" alt="facebooks icon"
+          /></a>
+        </li>
+        <li class="footer-nav-link">
+          <a href="#" aria-label="instagram link"
+            ><img src="/img/instagram-icon.svg" alt="Instagrams icon"
+          /></a>
+        </li>
+        <li class="footer-nav-link">
+          <a href="#" aria-label="LinkdInn link"
+            ><img src="/img/linkedinn-icon.svg" alt="linkedinns icon"
+          /></a>
+        </li>
+        <li class="footer-nav-link">
+          <a href="#" aria-label="github link"
+            ><img src="/img/github-icon.svg" alt="githubs icon"
+          /></a>
+        </li>
+      </ul>
+    </footer>
   </body>
+  <!-- script -->
+
+  <script src="script.js"></script>
+
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+  ></script>
 </html>
