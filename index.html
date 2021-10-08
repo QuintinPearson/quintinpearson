@@ -29,7 +29,7 @@
     <title>Quintin &mdash; A Portfolio</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header nav-open">
       <a href="#">
         <img
           src="img/logo-2.png"
@@ -44,9 +44,14 @@
           <li><a href="#about" class="main-nav-link">about</a></li>
           <li><a href="#work" class="main-nav-link">portfolio</a></li>
           <li><a href="#expertise" class="main-nav-link">services</a></li>
+          <li><a href="#" class="contact-btn">contact me</a></li>
         </ul>
       </nav>
-      <a href="#" class="contact-btn">contact me</a>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
     <section class="section-hero">
       <div class="container">
@@ -443,11 +448,20 @@
           /></a>
         </li>
       </ul>
+      <p class="copyright">
+        copyright &copy;
+        <span class="year"> 2100</span> &mdash;Quintin Pearson
+      </p>
     </footer>
   </body>
   <!-- script -->
 
   <script src="script.js"></script>
+
+  <script
+    defer
+    src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+  ></script>
 
   <script
     type="module"
