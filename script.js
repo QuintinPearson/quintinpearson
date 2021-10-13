@@ -62,6 +62,9 @@ allLinks.forEach(function (link) {
       const sectionEl = document.querySelector(href);
       sectionEl.scrollIntoView({ behavior: "smooth" });
     }
+    if (!href.startsWith("#")) {
+      window.open(href);
+    }
 
     // Close the mobile nav
     if (link.classList.contains("main-nav-link"))

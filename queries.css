@@ -36,6 +36,11 @@ instead, 1rem = 1em = 16px
     row-gap: 6.4rem;
     column-gap: 3.2rem;
   }
+
+  .services-more {
+    margin-top: 3.2rem;
+    color: #fff;
+  }
 }
 
 /* 900px / 16 = 56em */
@@ -58,7 +63,7 @@ instead, 1rem = 1em = 16px
 
   .services-items:last-child {
     grid-column: 1/-1;
-    max-width: 50%;
+    max-width: auto;
     margin: auto;
   }
   .section-services {
