@@ -240,4 +240,13 @@ instead, 1rem = 1em = 16px
     color: #333;
     font-size: 3.2rem;
   }
+
+  .testimonial-author,
+  .testimonial-company {
+    display: none;
+  }
+
+  .testimonial-text {
+    padding: 0 15%;
+  }
 }

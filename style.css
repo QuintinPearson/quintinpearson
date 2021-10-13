@@ -468,6 +468,7 @@ width: 100%; */
 
 .section-testimonials {
   background-color: #000;
+  /* height: 80vh; */
   margin-top: 9.6rem;
 }
 
@@ -494,7 +495,6 @@ width: 100%; */
 
 .carousel {
   margin: 0 auto;
-  padding: 32px;
   color: #fff;
 
   position: relative;
@@ -509,7 +509,10 @@ width: 100%; */
 .testimonial-text {
   font-size: 2.4rem;
   font-weight: 500;
-  padding: 0 15%;
+  line-height: 1.2;
+  padding: 0 30%;
+  text-align: center;
+  margin-bottom: 8rem;
 }
 
 /* slide functionality */
@@ -517,6 +520,9 @@ width: 100%; */
 .slide-row {
   display: flex;
   width: 300vw;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3.2rem;
 
   transition: 0.5s;
 }
@@ -524,6 +530,7 @@ width: 100%; */
 .slide-col {
   width: 100vw;
   position: relative;
+  margin: 0 auto;
 }
 
 .indicator {
@@ -531,6 +538,8 @@ width: 100%; */
   left: 50%;
   transform: translateX(-50%);
   bottom: 2px;
+  margin-top: 4rem;
+  margin-bottom: 3.2rem;
 }
 
 .carousel-btn {
@@ -605,6 +614,7 @@ width: 100%; */
 .about-text {
   font-size: 2.4rem;
   line-height: 3.6rem;
+  padding: 9.6rem;
 
   margin-bottom: 3.6rem;
 }
@@ -665,6 +675,13 @@ width: 100%; */
   align-items: center;
   justify-content: center;
   margin-bottom: 2rem;
+}
+
+.mail-link {
+  font-size: 2.4rem;
+  color: #fff;
+  margin-bottom: 3.2rem;
+  text-decoration: none;
 }
 
 /* --------------------------------------------------- */
