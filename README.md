@@ -1,5 +1,9 @@
 ### Hi there 👋
 
+I'm Quintin Pearson
+
+I am an active tech enthusiast and enjoy all that the industry has to provide. I have worked as a support technician for a few years and then moved on to web development. Although I love this industry, I am no robot, some of my favourite things to do are cooking, gardening and cycling.
+
 <!--
 **QuintinPearson/quintinpearson** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
