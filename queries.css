@@ -249,4 +249,8 @@ instead, 1rem = 1em = 16px
   .testimonial-text {
     padding: 0 15%;
   }
+
+  .about-text {
+    padding: 3.2rem;
+  }
 }

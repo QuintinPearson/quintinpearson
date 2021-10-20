@@ -323,7 +323,7 @@ width: 100%; */
   padding: 6.4rem 0;
   border-radius: 9px;
   width: 38rem;
-  height: 50rem;
+  height: auto;
   box-shadow: 6px 1rem 2rem rgba(0, 0, 0, 0.15);
 
   background-color: #fff;
